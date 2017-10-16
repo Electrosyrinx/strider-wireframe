@@ -1,0 +1,72 @@
+@import "components/form";
+
+$transwhite: rgba(255,255,255,0.8);
+$white: #ffffff;
+
+.navbar {
+    background-color: $transwhite;
+}
+
+body {
+    background-image: url(../../images/background.png);
+    background-repeat: no-repeat;
+    background-color: #8dc63f;
+    background-size: cover;
+}
+
+#main-logo {
+    margin-top: 40px;
+}
+
+#connect-accounts {
+    background-color: $transwhite;
+    margin-top: 25px;
+    padding: 8px 15px 0px 15px;
+}
+
+#content-feed {
+    background-color: $transwhite;
+    margin-top: 25px;
+    padding: 15px 60px 30px 60px;
+}
+
+.connection {
+    padding: 7px;
+}
+
+.styling, .criteria {
+    padding: 0px 0px 45px 0px;
+}
+
+.criteria {
+    text-align: center;
+}
+
+.suggestion-parameter, .suggestion-content {
+    background-color: $white;
+}
+
+.suggestion-content {
+    margin-bottom: 45px;
+}
+
+.ugc-profile-pic {
+    margin-left: 15px;
+    padding-right: 0px;
+}
+
+.ugc-profile-name {
+    margin-top: 0px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.saying {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.content-reviews {
+    padding-left: 30px;
+}
